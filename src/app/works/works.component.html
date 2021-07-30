@@ -1,0 +1,114 @@
+<div class="main-background">
+  <div class="works-wrapper home-container">
+    <h3 class="mt-3">Recent Works</h3>
+
+    <div class="mt-4 pb-5">
+      <mat-tab-group mat-align-tabs="start">
+        <mat-tab label="Everything">
+          <div class="row m-0">
+            <div
+              class="col-md-4 mt-4"
+              *ngFor="let item of recentWorksEverything"
+            >
+              <div class="portfolio-item">
+                <img src="{{ item.image }}" />
+                <div
+                  class="
+                    hover_Text
+                    d-flex
+                    align-items-end
+                    justify-content-between
+                  "
+                >
+                  <div class="hover_text_iner">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.desc }}</p>
+                    <a href="{{ item.url }}" class="place_btn" target="_black"
+                      >Visit</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </mat-tab>
+        <mat-tab label="MERN">
+          <div class="row m-0">
+            <div class="col-md-4 mt-4" *ngFor="let item of recentWorksMERN">
+              <div class="portfolio-item">
+                <img src="{{ item.image }}" />
+                <div
+                  class="
+                    hover_Text
+                    d-flex
+                    align-items-end
+                    justify-content-between
+                  "
+                >
+                  <div class="hover_text_iner">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.desc }}</p>
+                    <a href="{{ item.url }}" class="place_btn" target="_black"
+                      >Visit</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></mat-tab
+        >
+        <!-- <mat-tab label="MEAN">Content 3</mat-tab> -->
+        <mat-tab label="Django"
+          ><div class="row m-0">
+            <div class="col-md-4 mt-4" *ngFor="let item of recentWorksDjango">
+              <div class="portfolio-item">
+                <img src="{{ item.image }}" />
+                <div
+                  class="
+                    hover_Text
+                    d-flex
+                    align-items-end
+                    justify-content-between
+                  "
+                >
+                  <div class="hover_text_iner">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.desc }}</p>
+                    <a href="{{ item.url }}" class="place_btn" target="_black"
+                      >Visit</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></mat-tab
+        >
+        <mat-tab label="PHP"
+          ><div class="row m-0">
+            <div class="col-md-4 mt-4" *ngFor="let item of recentWorksPhp">
+              <div class="portfolio-item">
+                <img src="{{ item.image }}" />
+                <div
+                  class="
+                    hover_Text
+                    d-flex
+                    align-items-end
+                    justify-content-between
+                  "
+                >
+                  <div class="hover_text_iner">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.desc }}</p>
+                    <a href="{{ item.url }}" class="place_btn" target="_black"
+                      >Visit</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></mat-tab
+        >
+      </mat-tab-group>
+    </div>
+  </div>
+</div>

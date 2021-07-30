@@ -1,0 +1,38 @@
+.service-wrapper {
+  .purple-background {
+    background-color: rgb(108, 108, 229);
+  }
+  .yellow-background {
+    background-color: rgb(249, 215, 76);
+  }
+  .red-background {
+    background-color: rgb(249, 123, 139);
+  }
+  .service-card {
+    .purple-card-item {
+      padding: 30px;
+      border-radius: 20px !important;
+      color: #f8f9fa !important;
+      text-align: center !important;
+      background-color: rgb(108, 108, 229);
+      box-shadow: 0px 5px 20px 0px rgb(108 108 229 / 50%);
+      height: 276px;
+    }
+    .yellow-card-item {
+      padding: 30px;
+      border-radius: 20px !important;
+      color: #5e5c7f !important;
+      text-align: center !important;
+      background-color: rgb(249, 215, 76);
+      box-shadow: 0px 5px 20px 0px rgb(249 215 76 / 50%);
+    }
+    .red-card-item {
+      padding: 30px;
+      border-radius: 20px !important;
+      color: #f8f9fa !important;
+      text-align: center !important;
+      background-color: rgb(249, 123, 139);
+      box-shadow: 0px 5px 20px 0px rgb(249 123 139 / 50%);
+    }
+  }
+}

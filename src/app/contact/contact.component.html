@@ -1,0 +1,66 @@
+<div class="main-background">
+  <div class="contact-wrapper home-container">
+    <h3 class="mt-3">Get In Touch</h3>
+
+    <div class="mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Let's talk about everything!</h4>
+          <p>
+            Don't like forms? Send me an
+            <a href="mailto: minidolls1030@gmail.com">email.</a> 👋
+          </p>
+        </div>
+        <div class="col-md-8">
+          <form #msgForm="ngForm" (ngSubmit)="sendMessage(msgForm)">
+            <div class="d-flex justify-content-between">
+              <input
+                type="text"
+                name="fullName"
+                class="contact-input"
+                placeholder="Your name"
+                ngModel
+              />
+              <input
+                type="email"
+                name="email"
+                class="contact-input ml-3"
+                placeholder="Email address"
+                #email
+                ngModel
+              />
+            </div>
+            <input
+              type="text"
+              name="subject"
+              class="contact-input mt-4"
+              placeholder="Subject"
+              #subject
+              ngModel
+            />
+
+            <textarea
+              name="message"
+              class="mt-4 contact-input"
+              rows="8"
+              style="height: auto"
+              placeholder="message"
+              #content
+              ngModel
+            ></textarea>
+
+            <button type="submit" class="btn-default mt-4">Send message</button>
+
+            <p
+              class="mt-2"
+              style="color: #ff4c60; margin-left: 12px"
+              *ngIf="alertMessage"
+            >
+              {{ alertMessage }}
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

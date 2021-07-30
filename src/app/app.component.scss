@@ -1,0 +1,37 @@
+.app-container {
+  background-color: #f9f9ff;
+  // height: 100vh;
+  // padding-top: 70px;
+}
+h3 {
+  margin: 0;
+  font-size: 36px;
+  color: #454360;
+  font-weight: 700;
+}
+.main-background {
+  background: #f9f9ff;
+}
+.home-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 50px 0px 50px;
+  padding-top: 110px;
+  position: relative;
+}
+#about {
+  height: calc(100vh - 312px);
+}
+#service {
+  height: calc(100vh - 300px);
+}
+#experience {
+  height: calc(100vh - 60px);
+}
+#works {
+  // height: 100vh;
+}
+#contact {
+  height: calc(100vh - 90px);
+}

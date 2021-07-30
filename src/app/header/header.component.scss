@@ -1,0 +1,36 @@
+.header-section {
+  position: fixed;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+  background-color: #353353;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  color: white;
+  padding: 5px;
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+    .navbar-item {
+      padding-right: 3rem;
+      a {
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        text-decoration: unset;
+        &:hover {
+          color: #ffd15c !important;
+        }
+      }
+    }
+  }
+}
+.menu-font-size {
+  font-size: 16px;
+}

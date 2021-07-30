@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.round-button {
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  line-height: 1;
+  padding: 12px 32px;
+  cursor: pointer;
+}
+.default-btn {
+  color: #fff !important;
+  background: #ff4c60;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  box-shadow: 0 0 1px transparent;
+}

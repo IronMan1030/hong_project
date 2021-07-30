@@ -1,0 +1,32 @@
+<mat-toolbar fxLayout="row" class="header-section">
+  <mat-toolbar-row fxLayout="row" fxLayoutAlign="center center">
+    <h2 style="font-size: 32px">Portfolio</h2>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <ul class="navbar-nav">
+      <li
+        class="navbar-item"
+        routerLink="/"
+        routerLinkActive="active"
+        (click)="toHome()"
+      >
+        <a routerLink="/" routerLinkActive="active" (click)="toHome()">Home</a>
+      </li>
+      <li class="navbar-item">
+        <a routerLinkActive="active" (click)="toAbout()">About</a>
+      </li>
+      <li class="navbar-item">
+        <a routerLinkActive="active" (click)="toService()">Service</a>
+      </li>
+      <li class="navbar-item">
+        <a routerLinkActive="active" (click)="toExperience()">Experience</a>
+      </li>
+      <li class="navbar-item">
+        <a routerLinkActive="active" (click)="toWorks()">Works</a>
+      </li>
+      <li class="navbar-item">
+        <a routerLinkActive="active" (click)="toContact()">Contact</a>
+      </li>
+    </ul>
+  </mat-toolbar-row>
+</mat-toolbar>

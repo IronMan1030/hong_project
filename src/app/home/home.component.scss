@@ -1,0 +1,36 @@
+.home-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: #353353;
+  background-image: url("/assets/images/home_background.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  .icon-block {
+    display: flex;
+    justify-content: space-around;
+    img {
+      width: 40px !important;
+      height: 40px !important;
+    }
+  }
+  .profile-wrapper {
+    text-align: center;
+    h1 {
+      color: #fff;
+      font-size: 36px;
+      font-weight: 900;
+      font-family: "Rubik", sans-serif;
+    }
+    p {
+      color: white;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}
